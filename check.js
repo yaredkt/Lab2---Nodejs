@@ -15,7 +15,7 @@ const tree = {
 		  }] 
 	}] 
 }; 
-const find=(name)=>(tree)=>{
+const find =( name)=>(tree)=>{
     for(let file of tree.files)
     {
         //console.log(file);
